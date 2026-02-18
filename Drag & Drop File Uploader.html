@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drag & Drop File Uploader</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>📁 Drag & Drop File Uploader</h1>
+
+    <div id="dropZone" class="drop-zone">
+      Drop files here or click to browse
+      <input type="file" id="fileInput" multiple />
+    </div>
+
+    <div id="fileList" class="file-list"></div>
+
+    <button class="upload-btn" onclick="uploadFiles()">Upload Files</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
